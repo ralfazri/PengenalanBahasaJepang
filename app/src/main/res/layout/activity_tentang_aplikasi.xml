@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TentangAplikasi">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/icon"
+        android:layout_centerInParent="true"
+        android:id="@+id/logo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi Pengenalan Bahasa Jepang"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/logo"
+        android:padding="8dp"
+        android:id="@+id/judulAplikasi"
+        android:layout_centerHorizontal="true"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/garis"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/judulAplikasi"
+        android:layout_marginVertical="25dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/garis"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:drawableStart="@drawable/ic_facebook"
+            android:drawablePadding="10dp"
+            android:text="Suryono Sigit"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:drawableStart="@drawable/ic_instagram"
+            android:drawablePadding="10dp"
+            android:text="Suryono Sigit"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:drawableStart="@drawable/ic_telegram"
+            android:drawablePadding="10dp"
+            android:text="https://t.me/sigitsuryono25"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</RelativeLayout>
