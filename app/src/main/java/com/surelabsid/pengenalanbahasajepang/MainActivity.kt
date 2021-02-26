@@ -1,8 +1,8 @@
 package com.surelabsid.pengenalanbahasajepang
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.surelabsid.pengenalanbahasajepang.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -19,6 +19,8 @@ class MainActivity : AppCompatActivity() {
         //kasih klik untuk masing-masing tombol
         binding.letsPlay.setOnClickListener {
             //do something in here
+            val letsPlay = Intent(this@MainActivity, LetsPlayActivity::class.java)
+            startActivity(letsPlay)
         }
 
         binding.tentang.setOnClickListener {

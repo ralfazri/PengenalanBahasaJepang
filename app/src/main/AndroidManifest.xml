@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PengenalanBahasaJepang">
-        <activity android:name=".TentangAplikasi"></activity>
+        <activity android:name=".LetsPlayActivity"></activity>
+        <activity android:name=".TentangAplikasi" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
